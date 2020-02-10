@@ -1,6 +1,6 @@
 {
     "Version": "20.2.1",
-    "BaseUrl": "http://csman.info/",
+    "BaseUrl": "http://dist.csman.info/",
     "Platform": [
         "Generic",
         "Linux_GCC_AMD64",
