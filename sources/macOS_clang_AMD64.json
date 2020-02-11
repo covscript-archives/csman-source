@@ -89,7 +89,7 @@
             "Unstable": null
         },
         "cics.regex": {
-            "Description": "Regex Expression Library",
+            "Description": "RegEx Library",
             "Author": "Covariant Institute",
             "Verizon": {
                 "20.2.2": {
