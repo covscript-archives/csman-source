@@ -16,7 +16,7 @@ After initialization, you can find `csman.json` in your current directory which 
     "company.package_name": {
         "Description": "Write a brief description about your package in a line",
         "Author": "Anonymous",
-        "Verizon": [
+        "Version": [
             "1.0"
         ],
         "Latest": "1.0",
