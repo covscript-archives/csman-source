@@ -17,8 +17,8 @@ After initialization, you can find `csman.json` in your current directory which 
         "Description": "Write a brief description about your package in a line",
         "Author": "Anonymous",
         "State": "Preview",
-        "Version": "1.0"，
-        "ContentUrl": "Package Url in server"
+        "Version": "1.0",
+        "ContentUrl": "Package Url in server",
         "Dependencies": {
             "cs.runtime": "latest"
         },
