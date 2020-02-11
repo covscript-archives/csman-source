@@ -1,82 +1,108 @@
 {
-    "cics.codec": {
-        "Description": "Base32, Base64 and JSON Codec Library",
-        "Author": "Covariant Institute",
-        "Verizon": [
-            "20.2.2"
-        ],
-        "Latest": "20.2.2",
-        "Nightly": null,
-        "ContentUrl": "http://mirrors.covariant.cn/csman/Win32_MinGW-w64_AMD64/ABI_200202"
+    "RTM": {
+        "STD": "200201",
+        "ABI": "200202",
+        "cs.runtime": {
+            "Description": "CovScript Runtime Package",
+            "Author": "CovScript Organization",
+            "Verizon": [
+                "20.2.2"
+            ],
+            "Stable": "20.2.2",
+            "Unstable": null,
+            "ContentUrl": "http://mirrors.covariant.cn/csman/Win32_MinGW-w64_AMD64/ABI_200202"
+        },
+        "cs.develop": {
+            "Description": "CovScript Develop Package",
+            "Author": "CovScript Organization",
+            "Verizon": [
+                "20.2.2"
+            ],
+            "Stable": "20.2.2",
+            "Unstable": null,
+            "ContentUrl": "http://mirrors.covariant.cn/csman/Win32_MinGW-w64_AMD64/ABI_200202"
+        }
     },
-    "cics.darwin": {
-        "Description": "Covariant Darwin UCGL Bindings for CovScript",
-        "Author": "Covariant Institute",
-        "Verizon": [
-            "20.2.2"
-        ],
-        "Latest": "20.2.2",
-        "Nightly": null,
-        "ContentUrl": "http://mirrors.covariant.cn/csman/Win32_MinGW-w64_AMD64/ABI_200202"
-    },
-    "cics.imgui": {
-        "Description": "Ocornut Dear ImGUI Bindings for CovScript",
-        "Author": "Covariant Institute",
-        "Verizon": [
-            "20.2.2"
-        ],
-        "Latest": "20.2.2",
-        "Nightly": null,
-        "ContentUrl": "http://mirrors.covariant.cn/csman/Win32_MinGW-w64_AMD64/ABI_200202"
-    },
-    "cics.network": {
-        "Description": "ASIO Network Bindings for CovScript",
-        "Author": "Covariant Institute",
-        "Verizon": [
-            "20.2.2"
-        ],
-        "Latest": "20.2.2",
-        "Nightly": null,
-        "ContentUrl": "http://mirrors.covariant.cn/csman/Win32_MinGW-w64_AMD64/ABI_200202"
-    },
-    "cics.regex": {
-        "Description": "Regex Expression Library",
-        "Author": "Covariant Institute",
-        "Verizon": [
-            "20.2.2"
-        ],
-        "Latest": "20.2.2",
-        "Nightly": null,
-        "ContentUrl": "http://mirrors.covariant.cn/csman/Win32_MinGW-w64_AMD64/ABI_200202"
-    },
-    "cics.sqlite": {
-        "Description": "SQLite Database Bindings for CovScript",
-        "Author": "Covariant Institute",
-        "Verizon": [
-            "20.2.2"
-        ],
-        "Latest": "20.2.2",
-        "Nightly": null,
-        "ContentUrl": "http://mirrors.covariant.cn/csman/Win32_MinGW-w64_AMD64/ABI_200202"
-    },
-    "cics.streams": {
-        "Description": "Streams API for CovScript",
-        "Author": "Covariant Institute",
-        "Verizon": [
-            "20.2.2"
-        ],
-        "Latest": "20.2.2",
-        "Nightly": null,
-        "ContentUrl": "http://mirrors.covariant.cn/csman/Win32_MinGW-w64_AMD64/ABI_200202"
-    },
-    "cics.process": {
-        "Description": "System Process Library",
-        "Author": "Covariant Institute",
-        "Verizon": [
-            "20.2.2"
-        ],
-        "Latest": "20.2.2",
-        "Nightly": null,
-        "ContentUrl": "http://mirrors.covariant.cn/csman/Win32_MinGW-w64_AMD64/ABI_200202"
+    "PKG": {
+        "cics.codec": {
+            "Description": "Base32, Base64 and JSON Codec Library",
+            "Author": "Covariant Institute",
+            "Verizon": [
+                "20.2.2"
+            ],
+            "Stable": "20.2.2",
+            "Unstable": null,
+            "ContentUrl": "http://mirrors.covariant.cn/csman/Win32_MinGW-w64_AMD64/ABI_200202"
+        },
+        "cics.darwin": {
+            "Description": "Covariant Darwin UCGL Bindings for CovScript",
+            "Author": "Covariant Institute",
+            "Verizon": [
+                "20.2.2"
+            ],
+            "Stable": "20.2.2",
+            "Unstable": null,
+            "ContentUrl": "http://mirrors.covariant.cn/csman/Win32_MinGW-w64_AMD64/ABI_200202"
+        },
+        "cics.imgui": {
+            "Description": "Ocornut Dear ImGUI Bindings for CovScript",
+            "Author": "Covariant Institute",
+            "Verizon": [
+                "20.2.2"
+            ],
+            "Stable": "20.2.2",
+            "Unstable": null,
+            "ContentUrl": "http://mirrors.covariant.cn/csman/Win32_MinGW-w64_AMD64/ABI_200202"
+        },
+        "cics.network": {
+            "Description": "ASIO Network Bindings for CovScript",
+            "Author": "Covariant Institute",
+            "Verizon": [
+                "20.2.2"
+            ],
+            "Stable": "20.2.2",
+            "Unstable": null,
+            "ContentUrl": "http://mirrors.covariant.cn/csman/Win32_MinGW-w64_AMD64/ABI_200202"
+        },
+        "cics.regex": {
+            "Description": "Regex Expression Library",
+            "Author": "Covariant Institute",
+            "Verizon": [
+                "20.2.2"
+            ],
+            "Stable": "20.2.2",
+            "Unstable": null,
+            "ContentUrl": "http://mirrors.covariant.cn/csman/Win32_MinGW-w64_AMD64/ABI_200202"
+        },
+        "cics.sqlite": {
+            "Description": "SQLite Database Bindings for CovScript",
+            "Author": "Covariant Institute",
+            "Verizon": [
+                "20.2.2"
+            ],
+            "Stable": "20.2.2",
+            "Unstable": null,
+            "ContentUrl": "http://mirrors.covariant.cn/csman/Win32_MinGW-w64_AMD64/ABI_200202"
+        },
+        "cics.streams": {
+            "Description": "Streams API for CovScript",
+            "Author": "Covariant Institute",
+            "Verizon": [
+                "20.2.2"
+            ],
+            "Stable": "20.2.2",
+            "Unstable": null,
+            "ContentUrl": "http://mirrors.covariant.cn/csman/Win32_MinGW-w64_AMD64/ABI_200202"
+        },
+        "cics.process": {
+            "Description": "System Process Library",
+            "Author": "Covariant Institute",
+            "Verizon": [
+                "20.2.2"
+            ],
+            "Stable": "20.2.2",
+            "Unstable": null,
+            "ContentUrl": "http://mirrors.covariant.cn/csman/Win32_MinGW-w64_AMD64/ABI_200202"
+        }
     }
 }

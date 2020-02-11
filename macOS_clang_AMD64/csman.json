@@ -1,11 +1,9 @@
 {
     "Version": {
-        "VER": "3.3.3.8",
         "ABI": "200202"
     },
-    "Latest": {
-        "VER": "3.3.3.8",
+    "Stable": {
         "ABI": "200202"
     },
-    "Nightly": null
+    "Unstable": null
 }

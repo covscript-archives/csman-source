@@ -5,8 +5,8 @@
         "Verizon": [
             "1.0"
         ],
-        "Latest": "1.0",
-        "Nightly": null,
+        "Stable": "1.0",
+        "Unstable": null,
         "ContentUrl": "http://mirrors.covariant.cn/csman/Generic/STD_200201"
     },
     "cics.picasso": {
@@ -15,8 +15,8 @@
         "Verizon": [
             "1.0"
         ],
-        "Latest": "1.0",
-        "Nightly": null,
+        "Stable": "1.0",
+        "Unstable": null,
         "ContentUrl": "http://mirrors.covariant.cn/csman/Generic/STD_200201"
     },
     "cics.sqlite_ext": {
@@ -25,8 +25,8 @@
         "Verizon": [
             "1.0"
         ],
-        "Latest": "1.0",
-        "Nightly": null,
+        "Stable": "1.0",
+        "Unstable": null,
         "ContentUrl": "http://mirrors.covariant.cn/csman/Generic/STD_200201"
     },
     "cs.docs": {
@@ -35,8 +35,8 @@
         "Verizon": [
             "20.2.1"
         ],
-        "Latest": "20.2.1",
-        "Nightly": null,
+        "Stable": "20.2.1",
+        "Unstable": null,
         "ContentUrl": "http://mirrors.covariant.cn/csman/Generic/STD_200201"
     }
 }

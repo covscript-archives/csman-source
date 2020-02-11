@@ -2,8 +2,8 @@
     "Version": {
         "STD": "200201"
     },
-    "Latest": {
+    "Stable": {
         "STD": "200201"
     },
-    "Nightly": null
+    "Unstable": null
 }

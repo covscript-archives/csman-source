@@ -21,7 +21,7 @@ After initialization, you can find `csman.json` in your current directory which 
         "RemoteUrl": "Remote Git Url of your branch",
         "ContentUrl": "Package Url in server",
         "Dependencies": {
-            "cs.runtime": "latest"
+            "cs.runtime": "Stable"
         },
         "Contents": {
         }
