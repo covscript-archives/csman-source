@@ -1,0 +1,7 @@
+{
+    "STD": "200201",
+    "ABI": "200202",
+    "RTM": "cs.runtime",
+    "DEV": "cs.develop",
+    "ContentUrl": "http://mirrors.covariant.cn/csman/Win32_MinGW-w64_AMD64/VER_3.3.3.8"
+}

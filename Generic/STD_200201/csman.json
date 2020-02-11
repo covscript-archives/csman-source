@@ -1,0 +1,42 @@
+{
+    "cics.csbuild": {
+        "Description": "Official Build System for CovScript",
+        "Author": "Covariant Institute",
+        "Verizon": [
+            "1.0"
+        ],
+        "Latest": "1.0",
+        "Nightly": null,
+        "ContentUrl": "http://mirrors.covariant.cn/csman/Generic/STD_200201"
+    },
+    "cics.picasso": {
+        "Description": "Picasso UI Components for ImGUI",
+        "Author": "Covariant Institute",
+        "Verizon": [
+            "1.0"
+        ],
+        "Latest": "1.0",
+        "Nightly": null,
+        "ContentUrl": "http://mirrors.covariant.cn/csman/Generic/STD_200201"
+    },
+    "cics.sqlite_ext": {
+        "Description": "SQLite Extended Tools for SQLite",
+        "Author": "Covariant Institute",
+        "Verizon": [
+            "1.0"
+        ],
+        "Latest": "1.0",
+        "Nightly": null,
+        "ContentUrl": "http://mirrors.covariant.cn/csman/Generic/STD_200201"
+    },
+    "cs.docs": {
+        "Description": "Official Document for CovScript",
+        "Author": "CovScript Organization",
+        "Verizon": [
+            "20.2.1"
+        ],
+        "Latest": "20.2.1",
+        "Nightly": null,
+        "ContentUrl": "http://mirrors.covariant.cn/csman/Generic/STD_200201"
+    }
+}

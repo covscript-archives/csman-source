@@ -1,11 +1,10 @@
 {
     "Version": "20.2.1",
-    "BaseUrl": "http://dist.csman.info/",
+    "BaseUrl": "http://csman.info/",
     "Platform": [
         "Generic",
         "Linux_GCC_AMD64",
         "macOS_clang_AMD64",
-        "Win32_MinGW-w64_AMD64",
-        "Win32_MinGW-w64_i386"
+        "Win32_MinGW-w64_AMD64"
     ]
 }
