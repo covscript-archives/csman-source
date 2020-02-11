@@ -1,5 +1,3 @@
-# Covariant Script Manager Official Source
-
 The man behind Covariant Script who maintains all versions, packages and lots of trivial stuffs for programmers.
 
 **We call him `csman`.**
@@ -33,12 +31,11 @@ The man behind Covariant Script who maintains all versions, packages and lots of
     - 平台(`Generic 或 OS_Compiler_Architecture`, 如`Win32_MSVC_AMD64`)
         - 注意：CovScript Package依赖标准版本号，CovScript Extension依赖二进制版本号，但这两者在书写依赖时也可以依赖特定版本的CovScript Runtime
         - csman.json
-            - Version: {("VER":"运行时版本号" | "STD":"标准版本号" | "ABI":"二进制版本号")...}
+            - Version: {("VER":"运行时版本号" 或 "STD":"标准版本号" 或 "ABI":"二进制版本号")...}
             - Latest: [Version]
             - Nightly: [Version]
         - 运行时版本号(`VER_Master.Major.Minor.Revise`, 如`VER_2.3.3.3`)
             - csman.json
-                - State: (Stable | Unstable | Preview) 字符串，指示版本状态
                 - STD: 字符串，标示该运行时遵循的标准版本
                 - ABI: 字符串，标示该运行时的二进制版本
                 - RTM: 字符串，标示运行时环境的包名，一般为`cs.runtime`
@@ -64,7 +61,7 @@ The man behind Covariant Script who maintains all versions, packages and lots of
 
 ## CSMAN 包格式
 - csman.json
-    - State: (Stable | Unstable | Preview) 字符串，指示版本状态
-    - Dependencies: {("包名":"latest | nightly | 版本号")...}
-    - Contents: {("类型(BIN(可执行文件) | DEV(源代码头文件) | LIB(库文件) | CSP(CovScript包) | CSE(CovScript扩展) | DOC(文档))":"文件名 | 目录名")...}
+    - State: (Stable 或 Unstable 或 Preview) 字符串，指示版本状态
+    - Dependencies: {("包名":"latest 或 nightly 或 版本号")...}
+    - Contents: {("类型(BIN(可执行文件) 或 DEV(源代码头文件) 或 LIB(库文件) 或 CSP(CovScript包) 或 CSE(CovScript扩展) 或 DOC(文档))":"文件名 或 目录名")...}
 - 内容: 需符合csman.json的描述
