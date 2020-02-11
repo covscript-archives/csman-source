@@ -6,9 +6,9 @@ csman install cics.csbuild
 [CSBuild System](https://github.com/covscript/csbuild) Can help you building a CovScript Package easily.
 ```sh
 # Build a Package
-csbuild init package
+csbuild init --package
 # Build an Extension
-csbuild init extension
+csbuild init --extension
 ```
 After initialization, you can find `csman.json` in your current directory which created by csbuild. It seems like this:
 ```json
