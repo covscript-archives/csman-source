@@ -18,6 +18,7 @@ After initialization, you can find `csman.json` in your current directory which 
         "Author": "Anonymous",
         "State": "Preview",
         "Version": "1.0",
+        "RemoteUrl": "Remote Git Url of your branch",
         "ContentUrl": "Package Url in server",
         "Dependencies": {
             "cs.runtime": "latest"
@@ -29,10 +30,11 @@ After initialization, you can find `csman.json` in your current directory which 
 ```
 About the `Dependencies` and `Contents` fields, please refer to [CSMAN.INFO](http://csman.info/).  
 When you finish this file, run `csbuild package --content-url [Content Url]` in package directory. 
-Then you will get a zip file named `<PACKAGENAME>_<VERSION>.zip`, please upload to your server.
+Then you will get a zip file named `<PACKAGENAME>_<VERSION>.zip`, 
+please upload to your server and fill the actual url of your zip file to `ContentUrl` field of `csman.json`.
 ## Upload package information through Pull Request
 ```sh
-csman upload --config [path to your csman.json]
+csman upload
 ```
-Run this command in your local branch directory, CSMAN will put your file into right place automatically.  
-Then commit changes to your remote branch, start a pull request to https://github.com/covscript/csman-source/
+Run this command in package directory, CSMAN will read `csman.json` and put your file into right place automatically.  
+CSMAN will commit changes to your remote branch, then please start a pull request to https://github.com/covscript/csman-source/
