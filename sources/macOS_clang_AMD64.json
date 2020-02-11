@@ -1,0 +1,148 @@
+{
+    "Generic": {
+        "cs.runtime": {
+            "Description": "CovScript Runtime Package",
+            "Author": "CovScript Organization",
+            "Verizon": {
+                "3.3.3.8": {
+                    "STD": "200201",
+                    "ABI": "200202",
+                    "Dependencies": {},
+                    "ContentUrl": "http://mirrors.covariant.cn/csman/macOS_clang_AMD64/cs.runtime_3.3.3.8.zip"
+                }
+            },
+            "Stable": "20.2.2",
+            "Unstable": null
+        },
+        "cs.develop": {
+            "Description": "CovScript Develop Package",
+            "Author": "CovScript Organization",
+            "Verizon": {
+                "3.3.3.8": {
+                    "STD": "200201",
+                    "ABI": "200202",
+                    "Dependencies": {
+                        "cs.runtime": "RTM_3.3.3.8"
+                    },
+                    "ContentUrl": "http://mirrors.covariant.cn/csman/macOS_clang_AMD64/cs.develop_3.3.3.8.zip"
+                }
+            },
+            "Stable": "20.2.2",
+            "Unstable": null
+        }
+    },
+    "ABI_200202": {
+        "cics.codec": {
+            "Description": "Base32, Base64 and JSON Codec Library",
+            "Author": "Covariant Institute",
+            "Verizon": {
+                "20.2.2": {
+                    "Dependencies": {
+                        "cs.runtime": "ABI_200202"
+                    },
+                    "ContentUrl": "http://mirrors.covariant.cn/csman/macOS_clang_AMD64/ABI_200202/cics.codec_20.2.2.zip"
+                }
+            },
+            "Stable": "20.2.2",
+            "Unstable": null
+        },
+        "cics.darwin": {
+            "Description": "Covariant Darwin UCGL Bindings for CovScript",
+            "Author": "Covariant Institute",
+            "Verizon": {
+                "20.2.2": {
+                    "Dependencies": {
+                        "cs.runtime": "ABI_200202"
+                    },
+                    "ContentUrl": "http://mirrors.covariant.cn/csman/macOS_clang_AMD64/ABI_200202/cics.darwin_20.2.2.zip"
+                }
+            },
+            "Stable": "20.2.2",
+            "Unstable": null
+        },
+        "cics.imgui": {
+            "Description": "Ocornut Dear ImGUI Bindings for CovScript",
+            "Author": "Covariant Institute",
+            "Verizon": {
+                "20.2.2": {
+                    "Dependencies": {
+                        "cs.runtime": "ABI_200202"
+                    },
+                    "ContentUrl": "http://mirrors.covariant.cn/csman/macOS_clang_AMD64/ABI_200202/cics.imgui_20.2.2.zip"
+                }
+            },
+            "Stable": "20.2.2",
+            "Unstable": null
+        },
+        "cics.network": {
+            "Description": "ASIO Network Bindings for CovScript",
+            "Author": "Covariant Institute",
+            "Verizon": {
+                "20.2.2": {
+                    "Dependencies": {
+                        "cs.runtime": "ABI_200202"
+                    },
+                    "ContentUrl": "http://mirrors.covariant.cn/csman/macOS_clang_AMD64/ABI_200202/cics.network_20.2.2.zip"
+                }
+            },
+            "Stable": "20.2.2",
+            "Unstable": null
+        },
+        "cics.regex": {
+            "Description": "Regex Expression Library",
+            "Author": "Covariant Institute",
+            "Verizon": {
+                "20.2.2": {
+                    "Dependencies": {
+                        "cs.runtime": "ABI_200202"
+                    },
+                    "ContentUrl": "http://mirrors.covariant.cn/csman/macOS_clang_AMD64/ABI_200202/cics.regex_20.2.2.zip"
+                }
+            },
+            "Stable": "20.2.2",
+            "Unstable": null
+        },
+        "cics.sqlite": {
+            "Description": "SQLite Database Bindings for CovScript",
+            "Author": "Covariant Institute",
+            "Verizon": {
+                "20.2.2": {
+                    "Dependencies": {
+                        "cs.runtime": "ABI_200202"
+                    },
+                    "ContentUrl": "http://mirrors.covariant.cn/csman/macOS_clang_AMD64/ABI_200202/cics.sqlite_20.2.2.zip"
+                }
+            },
+            "Stable": "20.2.2",
+            "Unstable": null
+        },
+        "cics.streams": {
+            "Description": "Streams API for CovScript",
+            "Author": "Covariant Institute",
+            "Verizon": {
+                "20.2.2": {
+                    "Dependencies": {
+                        "cs.runtime": "ABI_200202"
+                    },
+                    "ContentUrl": "http://mirrors.covariant.cn/csman/macOS_clang_AMD64/ABI_200202/cics.streams_20.2.2.zip"
+                }
+            },
+            "Stable": "20.2.2",
+            "Unstable": null
+        },
+        "cics.process": {
+            "Description": "System Process Library",
+            "Author": "Covariant Institute",
+            "Verizon": {
+                "20.2.2": {
+                    "Dependencies": {
+                        "cs.runtime": "ABI_200202"
+                    },
+                    "ContentUrl": "http://mirrors.covariant.cn/csman/macOS_clang_AMD64/ABI_200202/cics.process_20.2.2.zip"
+                }
+            },
+            "Stable": "20.2.2",
+            "Unstable": null
+        }
+    }
+}
