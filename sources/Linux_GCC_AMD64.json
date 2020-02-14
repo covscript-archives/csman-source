@@ -3,7 +3,7 @@
         "cs.runtime": {
             "Description": "CovScript Runtime Package",
             "Author": "CovScript Organization",
-            "Verizon": {
+            "Version": {
                 "3.3.3.8": {
                     "STD": "200201",
                     "ABI": "200202",
@@ -17,7 +17,7 @@
         "cs.develop": {
             "Description": "CovScript Develop Package",
             "Author": "CovScript Organization",
-            "Verizon": {
+            "Version": {
                 "3.3.3.8": {
                     "STD": "200201",
                     "ABI": "200202",
@@ -35,7 +35,7 @@
         "cics.codec": {
             "Description": "Base32, Base64 and JSON Codec Library",
             "Author": "Covariant Institute",
-            "Verizon": {
+            "Version": {
                 "20.2.2": {
                     "Dependencies": {
                         "cs.runtime": "ABI_200202"
@@ -49,7 +49,7 @@
         "cics.darwin": {
             "Description": "Covariant Darwin UCGL Bindings for CovScript",
             "Author": "Covariant Institute",
-            "Verizon": {
+            "Version": {
                 "20.2.2": {
                     "Dependencies": {
                         "cs.runtime": "ABI_200202"
@@ -63,7 +63,7 @@
         "cics.imgui": {
             "Description": "Ocornut Dear ImGUI Bindings for CovScript",
             "Author": "Covariant Institute",
-            "Verizon": {
+            "Version": {
                 "20.2.2": {
                     "Dependencies": {
                         "cs.runtime": "ABI_200202"
@@ -77,7 +77,7 @@
         "cics.network": {
             "Description": "ASIO Network Bindings for CovScript",
             "Author": "Covariant Institute",
-            "Verizon": {
+            "Version": {
                 "20.2.2": {
                     "Dependencies": {
                         "cs.runtime": "ABI_200202"
@@ -91,7 +91,7 @@
         "cics.regex": {
             "Description": "RegEx Library",
             "Author": "Covariant Institute",
-            "Verizon": {
+            "Version": {
                 "20.2.2": {
                     "Dependencies": {
                         "cs.runtime": "ABI_200202"
@@ -105,7 +105,7 @@
         "cics.sqlite": {
             "Description": "SQLite Database Bindings for CovScript",
             "Author": "Covariant Institute",
-            "Verizon": {
+            "Version": {
                 "20.2.2": {
                     "Dependencies": {
                         "cs.runtime": "ABI_200202"
@@ -119,7 +119,7 @@
         "cics.streams": {
             "Description": "Streams API for CovScript",
             "Author": "Covariant Institute",
-            "Verizon": {
+            "Version": {
                 "20.2.2": {
                     "Dependencies": {
                         "cs.runtime": "ABI_200202"
@@ -133,7 +133,7 @@
         "cics.process": {
             "Description": "System Process Library",
             "Author": "Covariant Institute",
-            "Verizon": {
+            "Version": {
                 "20.2.2": {
                     "Dependencies": {
                         "cs.runtime": "ABI_200202"
