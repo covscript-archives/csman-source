@@ -3,7 +3,7 @@
         "cics.csbuild": {
             "Description": "Official Build System for CovScript",
             "Author": "Covariant Institute",
-            "Verizon": {
+            "Version": {
                 "1.0": {
                     "Dependencies": {
                         "cs.runtime": "Stable",
@@ -18,7 +18,7 @@
         "cics.picasso": {
             "Description": "Picasso UI Components for ImGUI",
             "Author": "Covariant Institute",
-            "Verizon": {
+            "Version": {
                 "1.0": {
                     "Dependencies": {
                         "cs.runtime": "Stable",
@@ -34,7 +34,7 @@
         "cics.sqlite_ext": {
             "Description": "SQLite Extended Tools for SQLite",
             "Author": "Covariant Institute",
-            "Verizon": {
+            "Version": {
                 "1.0": {
                     "Dependencies": {
                         "cs.runtime": "Stable",
@@ -52,7 +52,7 @@
         "cs.docs": {
             "Description": "Official Document for CovScript",
             "Author": "CovScript Organization",
-            "Verizon": {
+            "Version": {
                 "20.2.2": {
                     "Dependencies": {
                         "cs.runtime": "STD_200201"
