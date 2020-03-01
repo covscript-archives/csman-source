@@ -1,6 +1,6 @@
 {
     "Version": "20.2.2",
-    "BaseUrl": "http://csman.info/sources/",
+    "BaseUrl": "https://covscript.github.io/csman-source/sources/",
     "Platform": [
         "Generic",
         "Linux_GCC_AMD64",
