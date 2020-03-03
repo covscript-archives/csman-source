@@ -11,7 +11,7 @@
                     "ContentUrl": "http://mirrors.covariant.cn/csman/Win32_MinGW-w64_AMD64/cs.runtime_3.3.3.8.zip"
                 }
             },
-            "Stable": "20.2.2",
+            "Stable": "3.3.3.8",
             "Unstable": null
         },
         "cs.develop": {
@@ -27,7 +27,7 @@
                     "ContentUrl": "http://mirrors.covariant.cn/csman/Win32_MinGW-w64_AMD64/cs.develop_3.3.3.8.zip"
                 }
             },
-            "Stable": "20.2.2",
+            "Stable": "3.3.3.8",
             "Unstable": null
         }
     },
