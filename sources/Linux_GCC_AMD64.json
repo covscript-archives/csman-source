@@ -4,43 +4,43 @@
             "Description": "CovScript Runtime Package",
             "Author": "CovScript Organization",
             "Version": {
-                "3.3.3.8": {
-                    "STD": "200201",
-                    "ABI": "200202",
+                "3.3.3.12": {
+                    "STD": "200302",
+                    "ABI": "200203",
                     "Dependencies": {},
-                    "ContentUrl": "http://mirrors.covariant.cn/csman/Linux_GCC_AMD64/cs.runtime_3.3.3.8.zip"
+                    "ContentUrl": "http://mirrors.covariant.cn/csman/Linux_GCC_AMD64/cs.runtime_3.3.3.12.zip"
                 }
             },
-            "Stable": "3.3.3.8",
+            "Stable": "3.3.3.12",
             "Unstable": null
         },
         "cs.develop": {
             "Description": "CovScript Develop Package",
             "Author": "CovScript Organization",
             "Version": {
-                "3.3.3.8": {
-                    "STD": "200201",
-                    "ABI": "200202",
+                "3.3.3.12": {
+                    "STD": "200302",
+                    "ABI": "200203",
                     "Dependencies": {
-                        "cs.runtime": "RTM_3.3.3.8"
+                        "cs.runtime": "RTM_3.3.3.12"
                     },
-                    "ContentUrl": "http://mirrors.covariant.cn/csman/Linux_GCC_AMD64/cs.develop_3.3.3.8.zip"
+                    "ContentUrl": "http://mirrors.covariant.cn/csman/Linux_GCC_AMD64/cs.develop_3.3.3.12.zip"
                 }
             },
-            "Stable": "3.3.3.8",
+            "Stable": "3.3.3.12",
             "Unstable": null
         }
     },
-    "ABI_200202": {
+    "ABI_200203": {
         "cics.codec": {
             "Description": "Base32, Base64 and JSON Codec Library",
             "Author": "Covariant Institute",
             "Version": {
                 "20.2.2": {
                     "Dependencies": {
-                        "cs.runtime": "ABI_200202"
+                        "cs.runtime": "ABI_200203"
                     },
-                    "ContentUrl": "http://mirrors.covariant.cn/csman/Linux_GCC_AMD64/ABI_200202/cics.codec_20.2.2.zip"
+                    "ContentUrl": "http://mirrors.covariant.cn/csman/Linux_GCC_AMD64/ABI_200203/cics.codec_20.2.2.zip"
                 }
             },
             "Stable": "20.2.2",
@@ -52,9 +52,9 @@
             "Version": {
                 "20.2.2": {
                     "Dependencies": {
-                        "cs.runtime": "ABI_200202"
+                        "cs.runtime": "ABI_200203"
                     },
-                    "ContentUrl": "http://mirrors.covariant.cn/csman/Linux_GCC_AMD64/ABI_200202/cics.darwin_20.2.2.zip"
+                    "ContentUrl": "http://mirrors.covariant.cn/csman/Linux_GCC_AMD64/ABI_200203/cics.darwin_20.2.2.zip"
                 }
             },
             "Stable": "20.2.2",
@@ -66,9 +66,9 @@
             "Version": {
                 "20.2.2": {
                     "Dependencies": {
-                        "cs.runtime": "ABI_200202"
+                        "cs.runtime": "ABI_200203"
                     },
-                    "ContentUrl": "http://mirrors.covariant.cn/csman/Linux_GCC_AMD64/ABI_200202/cics.imgui_20.2.2.zip"
+                    "ContentUrl": "http://mirrors.covariant.cn/csman/Linux_GCC_AMD64/ABI_200203/cics.imgui_20.2.2.zip"
                 }
             },
             "Stable": "20.2.2",
@@ -80,9 +80,9 @@
             "Version": {
                 "20.2.2": {
                     "Dependencies": {
-                        "cs.runtime": "ABI_200202"
+                        "cs.runtime": "ABI_200203"
                     },
-                    "ContentUrl": "http://mirrors.covariant.cn/csman/Linux_GCC_AMD64/ABI_200202/cics.network_20.2.2.zip"
+                    "ContentUrl": "http://mirrors.covariant.cn/csman/Linux_GCC_AMD64/ABI_200203/cics.network_20.2.2.zip"
                 }
             },
             "Stable": "20.2.2",
@@ -94,9 +94,9 @@
             "Version": {
                 "20.2.2": {
                     "Dependencies": {
-                        "cs.runtime": "ABI_200202"
+                        "cs.runtime": "ABI_200203"
                     },
-                    "ContentUrl": "http://mirrors.covariant.cn/csman/Linux_GCC_AMD64/ABI_200202/cics.regex_20.2.2.zip"
+                    "ContentUrl": "http://mirrors.covariant.cn/csman/Linux_GCC_AMD64/ABI_200203/cics.regex_20.2.2.zip"
                 }
             },
             "Stable": "20.2.2",
@@ -108,9 +108,9 @@
             "Version": {
                 "20.2.2": {
                     "Dependencies": {
-                        "cs.runtime": "ABI_200202"
+                        "cs.runtime": "ABI_200203"
                     },
-                    "ContentUrl": "http://mirrors.covariant.cn/csman/Linux_GCC_AMD64/ABI_200202/cics.sqlite_20.2.2.zip"
+                    "ContentUrl": "http://mirrors.covariant.cn/csman/Linux_GCC_AMD64/ABI_200203/cics.sqlite_20.2.2.zip"
                 }
             },
             "Stable": "20.2.2",
@@ -122,9 +122,9 @@
             "Version": {
                 "20.2.2": {
                     "Dependencies": {
-                        "cs.runtime": "ABI_200202"
+                        "cs.runtime": "ABI_200203"
                     },
-                    "ContentUrl": "http://mirrors.covariant.cn/csman/Linux_GCC_AMD64/ABI_200202/cics.streams_20.2.2.zip"
+                    "ContentUrl": "http://mirrors.covariant.cn/csman/Linux_GCC_AMD64/ABI_200203/cics.streams_20.2.2.zip"
                 }
             },
             "Stable": "20.2.2",
@@ -136,9 +136,9 @@
             "Version": {
                 "20.2.2": {
                     "Dependencies": {
-                        "cs.runtime": "ABI_200202"
+                        "cs.runtime": "ABI_200203"
                     },
-                    "ContentUrl": "http://mirrors.covariant.cn/csman/Linux_GCC_AMD64/ABI_200202/cics.process_20.2.2.zip"
+                    "ContentUrl": "http://mirrors.covariant.cn/csman/Linux_GCC_AMD64/ABI_200203/cics.process_20.2.2.zip"
                 }
             },
             "Stable": "20.2.2",

@@ -33,7 +33,7 @@ The man behind Covariant Script who maintains all versions, packages and lots of
             - 除运行时包本身，所有的包必须依赖运行时包
             - `cs.runtime`为运行时包，`cs.develop`为开发包，这两个包名独占
             - CovScript Package 依赖标准版本号，CovScript Extension 依赖二进制版本号
-        - 通用(`Generic`) 或 标准版本(`STD_XXXXXX`，如`STD_200201`) 或 二进制版本(`ABI_XXXXXX`，如`ABI_200201`)
+        - 通用(`Generic`) 或 标准版本(`STD_XXXXXX`，如`STD_200302`) 或 二进制版本(`ABI_XXXXXX`，如`ABI_200203`)
             - {(包名(字符串):描述对象)...}
             - 描述对象格式:
                 - Description: 字符串，包的描述

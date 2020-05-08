@@ -48,16 +48,16 @@
             "Unstable": null
         }
     },
-    "STD_200201": {
+    "STD_200302": {
         "cs.docs": {
             "Description": "Official Document for CovScript",
             "Author": "CovScript Organization",
             "Version": {
                 "20.2.2": {
                     "Dependencies": {
-                        "cs.runtime": "STD_200201"
+                        "cs.runtime": "STD_200302"
                     },
-                    "ContentUrl": "http://mirrors.covariant.cn/csman/Generic/STD_200201/cics.csbuild_20.2.2.zip"
+                    "ContentUrl": "http://mirrors.covariant.cn/csman/Generic/STD_200302/cics.csbuild_20.2.2.zip"
                 }
             },
             "Stable": "20.2.1",
