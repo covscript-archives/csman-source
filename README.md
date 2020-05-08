@@ -50,5 +50,5 @@ The man behind Covariant Script who maintains all versions, packages and lots of
 ## CSMAN 包格式
 - csman.json
     - State: (Stable 或 Unstable 或 Preview) 字符串，指示版本状态
-    - Contents: {("类型(BIN(可执行文件) 或 DEV(源代码头文件) 或 LIB(库文件) 或 CSP(CovScript包) 或 CSE(CovScript扩展) 或 DOC(文档))":"文件名 或 目录名")...}
+    - Contents: {("文件名 或 目录名":"类型(BIN(可执行文件) 或 DEV(源代码头文件) 或 LIB(库文件) 或 CSP(CovScript包) 或 CSE(CovScript扩展) 或 DOC(文档))")...}
 - 内容: 需符合csman.json的描述
