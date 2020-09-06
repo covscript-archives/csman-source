@@ -22,7 +22,7 @@
                     "STD": "200302",
                     "ABI": "200203",
                     "Dependencies": {
-                        "cs.runtime": "RTM_3.3.3.12"
+                        "cs.runtime": "3.3.3.12"
                     },
                     "ContentUrl": "http://mirrors.covariant.cn/csman/Linux_GCC_AMD64/cs.develop_3.3.3.12.zip"
                 }
