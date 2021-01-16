@@ -37,9 +37,7 @@
             "Author": "Covariant Institute",
             "Version": {
                 "20.2.2": {
-                    "Dependencies": {
-                        "cs.runtime": "ABI_200203"
-                    },
+                    "Dependencies": null,
                     "ContentUrl": "http://mirrors.covariant.cn/csman/Linux_GCC_AMD64/ABI_200203/cics.codec_20.2.2.zip"
                 }
             },
@@ -51,9 +49,7 @@
             "Author": "Covariant Institute",
             "Version": {
                 "20.2.2": {
-                    "Dependencies": {
-                        "cs.runtime": "ABI_200203"
-                    },
+                    "Dependencies": null,
                     "ContentUrl": "http://mirrors.covariant.cn/csman/Linux_GCC_AMD64/ABI_200203/cics.darwin_20.2.2.zip"
                 }
             },
@@ -65,9 +61,7 @@
             "Author": "Covariant Institute",
             "Version": {
                 "20.2.2": {
-                    "Dependencies": {
-                        "cs.runtime": "ABI_200203"
-                    },
+                    "Dependencies": null,
                     "ContentUrl": "http://mirrors.covariant.cn/csman/Linux_GCC_AMD64/ABI_200203/cics.imgui_20.2.2.zip"
                 }
             },
@@ -79,9 +73,7 @@
             "Author": "Covariant Institute",
             "Version": {
                 "20.2.2": {
-                    "Dependencies": {
-                        "cs.runtime": "ABI_200203"
-                    },
+                    "Dependencies": null,
                     "ContentUrl": "http://mirrors.covariant.cn/csman/Linux_GCC_AMD64/ABI_200203/cics.network_20.2.2.zip"
                 }
             },
@@ -93,9 +85,7 @@
             "Author": "Covariant Institute",
             "Version": {
                 "20.2.2": {
-                    "Dependencies": {
-                        "cs.runtime": "ABI_200203"
-                    },
+                    "Dependencies": null,
                     "ContentUrl": "http://mirrors.covariant.cn/csman/Linux_GCC_AMD64/ABI_200203/cics.regex_20.2.2.zip"
                 }
             },
@@ -107,9 +97,7 @@
             "Author": "Covariant Institute",
             "Version": {
                 "20.2.2": {
-                    "Dependencies": {
-                        "cs.runtime": "ABI_200203"
-                    },
+                    "Dependencies": null,
                     "ContentUrl": "http://mirrors.covariant.cn/csman/Linux_GCC_AMD64/ABI_200203/cics.sqlite_20.2.2.zip"
                 }
             },
@@ -121,9 +109,7 @@
             "Author": "Covariant Institute",
             "Version": {
                 "20.2.2": {
-                    "Dependencies": {
-                        "cs.runtime": "ABI_200203"
-                    },
+                    "Dependencies": null,
                     "ContentUrl": "http://mirrors.covariant.cn/csman/Linux_GCC_AMD64/ABI_200203/cics.streams_20.2.2.zip"
                 }
             },
@@ -135,9 +121,7 @@
             "Author": "Covariant Institute",
             "Version": {
                 "20.2.2": {
-                    "Dependencies": {
-                        "cs.runtime": "ABI_200203"
-                    },
+                    "Dependencies": null,
                     "ContentUrl": "http://mirrors.covariant.cn/csman/Linux_GCC_AMD64/ABI_200203/cics.process_20.2.2.zip"
                 }
             },
